@@ -5,12 +5,14 @@
 	desc = "A simple rock to serve as your pet, better remember to feed it."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "ore2"
+	gender = PLURAL
 
 /obj/item/weapon/pet_rock_gold
 	name = "Golden Rock"
 	desc = "A simple rock to serve as your pet, except this one is made of pure gold."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "ore_gold"
+	gender = PLURAL
 
 //This is more of a decal effect.
 
@@ -19,6 +21,7 @@
 	desc = "A simple rock to serve as your pet, this one seems to be very fragile. Be careful!"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "ore_glass"
+	gender = PLURAL
 	anchored = TRUE
 
 //Taken from /obj/effect/decal/cleanable/ash
